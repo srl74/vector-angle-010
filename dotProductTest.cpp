@@ -18,6 +18,7 @@ int main() {
         std::vector<double> v2 = {4, 5, 6};
 
         assert(dotProduct(v1, v2) == 32.0);
+        assert(dotProduct(v2, std::vector<double>{0, 0, 0}) == 0);
     }
 
     return 0;
